@@ -1,10 +1,4 @@
-
-# coding: utf-8
-
-# # Calculates repayment time given some inputs
-
-# In[5]:
-
+## coding: utf-8
 
 ## Author: Andrew M. Telford
 ## Version: 1.0
