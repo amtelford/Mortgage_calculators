@@ -1,5 +1,5 @@
-## coding: utf-8
 
+## coding: utf-8
 ## Author: Andrew M. Telford
 ## Version: 1.0
 ## Date: 02/01/2018
@@ -13,11 +13,10 @@ from math import log
 class App:
 
     def __init__(self, master): 
-        ## Sets up a master frame with 2 columns and 4 rows. The left columns 
-        ## contains labels of each field; the right column contains the
-        ## fillable boxes.
-
-        ## Frame setup: creates a second frame to hold the interactive buttons 
+        
+        ## Frame setup: creates a frame with 3 columns and 4 rows. The left columns 
+        ## contains labels of each field; the middle column contains the
+        ## fillable boxes; the right columns contains the interactive buttons 
         ## CALCULATE and QUIT
         self.frame = Frame(master, bd=3, relief=SUNKEN) 
         self.frame.pack()
